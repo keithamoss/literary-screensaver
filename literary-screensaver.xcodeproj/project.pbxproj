@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A6D8F322126B88200FC68F5 /* DefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6D8F2F2126B88200FC68F5 /* DefaultsManager.swift */; };
+		4A6D8F332126B88200FC68F5 /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A6D8F302126B88200FC68F5 /* ConfigureSheet.xib */; };
+		4A6D8F342126B88200FC68F5 /* ConfigureSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6D8F312126B88200FC68F5 /* ConfigureSheetController.swift */; };
 		AE29A3E62116E84E003E6687 /* litclock_annotated.csv in Resources */ = {isa = PBXBuildFile; fileRef = AE29A3E52116E84E003E6687 /* litclock_annotated.csv */; };
 		AE7CF27921167143008A6BE0 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7CF27821167143008A6BE0 /* Main.swift */; };
 		AE8E03702116C50A0019F126 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8E036F2116C50A0019F126 /* Quote.swift */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A6D8F2F2126B88200FC68F5 /* DefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultsManager.swift; sourceTree = "<group>"; };
+		4A6D8F302126B88200FC68F5 /* ConfigureSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigureSheet.xib; sourceTree = "<group>"; };
+		4A6D8F312126B88200FC68F5 /* ConfigureSheetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureSheetController.swift; sourceTree = "<group>"; };
 		AE29A3E52116E84E003E6687 /* litclock_annotated.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = litclock_annotated.csv; sourceTree = "<group>"; };
 		AE7CF26B2116705C008A6BE0 /* literary-screensaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "literary-screensaver.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE7CF2722116705C008A6BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,6 +77,9 @@
 		AE7CF26D2116705C008A6BE0 /* literary-screensaver */ = {
 			isa = PBXGroup;
 			children = (
+				4A6D8F302126B88200FC68F5 /* ConfigureSheet.xib */,
+				4A6D8F312126B88200FC68F5 /* ConfigureSheetController.swift */,
+				4A6D8F2F2126B88200FC68F5 /* DefaultsManager.swift */,
 				AE29A3E52116E84E003E6687 /* litclock_annotated.csv */,
 				AE7CF27821167143008A6BE0 /* Main.swift */,
 				AE7CF2722116705C008A6BE0 /* Info.plist */,
@@ -182,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A6D8F332126B88200FC68F5 /* ConfigureSheet.xib in Resources */,
 				AE29A3E62116E84E003E6687 /* litclock_annotated.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,7 +213,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A6D8F342126B88200FC68F5 /* ConfigureSheetController.swift in Sources */,
 				AE8E03702116C50A0019F126 /* Quote.swift in Sources */,
+				4A6D8F322126B88200FC68F5 /* DefaultsManager.swift in Sources */,
 				AE7CF27921167143008A6BE0 /* Main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
